@@ -12,13 +12,9 @@ def get_choices():
 
 #another function
 def check_win(player, computer):
-    return [player, computer]
-
-response_win = check_win("me-player", "you-computer")
-print(response_win)
-
-
-
+    print("your choice: " + player + "computer choice: " + computer)
+    if player == computer:
+        return "It is a tie"
 
 
 
