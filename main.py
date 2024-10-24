@@ -1,2 +1,3 @@
-# this is the print command
-print("start me")
+def get_choices():
+    player_choice = "rock"
+    computer_choice = "paper"
