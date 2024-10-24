@@ -1,5 +1,5 @@
 def get_choices():
-    player_choice = "rock"
+    player_choice = input("Enter Choice (rock, paper, scissors)")
     computer_choice = "paper"
     choices = {"player": player_choice, "computer": computer_choice}
     
@@ -13,5 +13,3 @@ print(response)
 
 choices = get_choices()
 print(choices)
-
-dict = {"name": "beau", "color": choices}
